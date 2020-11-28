@@ -120,7 +120,11 @@
 		<sqlite-jdbc.version>3.32.3.2</sqlite-jdbc.version>
 		
 		<!-- https://mvnrepository.com/artifact/io.burt/jmespath-jackson -->
-		<jmespath-jackson.version>0.5.0</jmespath-jackson.version>		
+		<jmespath-jackson.version>0.5.0</jmespath-jackson.version>
+		
+		<!-- deeplearning4j-core: contains main functionality and neural networks -->
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp -->
+		<dl4j-master.version>1.0.0-beta7</dl4j-master.version>		
 		
 	</properties>
 
