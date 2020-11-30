@@ -76,7 +76,7 @@
 		<slf4j-api.version>1.7.30</slf4j-api.version>
 		
 		<!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
-		<stanford-corenlp.version>4.2.0</stanford-corenlp.version>
+		<stanford-corenlp.version>4.0.0</stanford-corenlp.version>
 		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
