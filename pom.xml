@@ -59,7 +59,7 @@
 		
 		<maven-site-plugin.version>3.9.1</maven-site-plugin.version>
 		<maven-fluido-skin.version>1.9</maven-fluido-skin.version>
-		<maven-project-info-reports-plugin.version>3.1.1</maven-project-info-reports-plugin.version>
+		<maven-project-info-reports-plugin.version>3.1.0</maven-project-info-reports-plugin.version>
 		<maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>		
 		<doxia-site-renderer.version>1.9.2</doxia-site-renderer.version>
 		<doxiaVersion>1.9.1</doxiaVersion>
@@ -233,7 +233,7 @@
 			<plugin>
 			    <groupId>org.codehaus.mojo</groupId>
 			    <artifactId>versions-maven-plugin</artifactId>
-			    <version>2.8.1</version>
+			    <version>2.5</version>
 			    <configuration>
 			        <generateBackupPoms>false</generateBackupPoms>
 			    </configuration>
@@ -370,31 +370,31 @@
 				<version>${maven-javadoc-plugin.version}</version>
 				<configuration>
 					<source>8</source>
-				</configuration>
-		        	<reportSets>
-		          		<reportSet>
-		            			<reports>
+				</configuration>				
+		        <reportSets>
+					<reportSet>
+						<reports>
 							<report>javadoc-no-fork</report>
 							<report>test-javadoc-no-fork</report>
-						</reports>
+		            	</reports>
 					</reportSet>
-				</reportSets>				
-	      		</plugin>
+		         </reportSets>				
+	      	</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-report-plugin</artifactId>
 				<version>${maven-surefire-plugin.version}</version>
 			    <reportSets>
-			        <reportSet>
+					<reportSet>
 			            <reports>
 			                <report>report-only</report>
 			            </reports>			            
 			        </reportSet>
 					<reportSet>
-					      <id>integration-tests</id>
-					      <reports>
+						<id>integration-tests</id>
+						<reports>
 					        <report>failsafe-report-only</report>
-					      </reports>
+						</reports>
 					</reportSet>			        
 			    </reportSets>
 			</plugin>
