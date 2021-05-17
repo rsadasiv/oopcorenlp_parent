@@ -55,7 +55,7 @@
 		<jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-		<junit.jupiter.version>5.7.0</junit.jupiter.version>
+		<junit.jupiter.version>5.7.2</junit.jupiter.version>
 		
 		<maven-site-plugin.version>3.9.1</maven-site-plugin.version>
 		<maven-fluido-skin.version>1.9</maven-fluido-skin.version>
