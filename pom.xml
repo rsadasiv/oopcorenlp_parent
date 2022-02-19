@@ -57,7 +57,8 @@
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<junit.jupiter.version>5.7.0</junit.jupiter.version>
 		
-		<maven-site-plugin.version>3.11.0</maven-site-plugin.version>
+		<maven-site-plugin.version>3.9.1</maven-site-plugin.version>
+
 		<maven-fluido-skin.version>1.10.0</maven-fluido-skin.version>
 		<maven-project-info-reports-plugin.version>3.2.1</maven-project-info-reports-plugin.version>
 		<maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>		
