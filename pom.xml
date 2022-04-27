@@ -60,7 +60,7 @@
 		<maven-site-plugin.version>3.9.1</maven-site-plugin.version>
 
 		<maven-fluido-skin.version>1.10.0</maven-fluido-skin.version>
-		<maven-project-info-reports-plugin.version>3.2.1</maven-project-info-reports-plugin.version>
+		<maven-project-info-reports-plugin.version>3.3.0</maven-project-info-reports-plugin.version>
 		<maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>		
 		<doxia-site-renderer.version>1.9.2</doxia-site-renderer.version>
 
